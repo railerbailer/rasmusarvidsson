@@ -18,21 +18,25 @@
     "react-native-elements": "^0.18.5",
     "react-native-vector-icons": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17",
+    "react-scripts": "1.1.1",
     "react-scroll-up-button": "^1.5.10",
     "react-share": "^1.18.0",
     "react-validate-form": "^1.0.6",
-    "semantic-ui-react": "^0.77.1"
+    "semantic-ui-react": "^0.77.1",
+    "snyk": "^1.83.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-preset-stage-1": "^6.24.1",
     "gh-pages": "^1.1.0",
     "react-social-icons": "^2.7.0"
-  }
+  },
+  "snyk": true
 }
