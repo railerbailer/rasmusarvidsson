@@ -1,15 +1,9 @@
-
-import {
-
-  generateShareIcon 
-} from 'react-share';
-
-
-export const LinkedinIcon = generateShareIcon('linkedin');
-export const EmailIcon = generateShareIcon('email');
-export const FacebookIcon = generateShareIcon('facebook');
-
-
+import { generateShareIcon } from "react-share";
+import React from "react";
+export const LinkedinIcon = generateShareIcon("linkedin");
+export const EmailIcon = generateShareIcon("email");
+export const FacebookIcon = generateShareIcon("facebook");
+export const GithubIcon = () => <img className="githubIcon" />;
 
 // const TwitterIcon = generateShareIcon('twitter');
 // const TelegramIcon = generateShareIcon('telegram');
